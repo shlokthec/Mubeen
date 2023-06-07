@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgba(0, 0, 0, 0.26);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover{
+        color: rgb(153, 153, 226);
+        font-size: 1.04rem;
+      }
+      .left{
+        font-size: 2rem;
+        margin-left: 0%;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: white;
+        color: black;
+      }
+      .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+        align-items: center;
+      }
+      .firstSection > div{
+        width: 30%;
+      }
+      .rightsection img {
+        width: 80%;
+        margin: 50px 0;
+}
+.leftSection{
+    font-size: 3rem;
+    /* margin: 70px 0; */
+}
+hr {
+            border-color: #9c97f1; 
+            margin: 60px 84px;
+        }
+.purple{
+    color: blueviolet;
+}
+#element{
+  color: rgb(137, 63, 206);
+}
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  height: auto;
+}
+
+   h1{
+  font-size: 1.9rem;
+}
+.texogrey {
+  color: gray;
+}
+.secondSection .box{
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+}
+.thirdSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+footer{
+  text-align: center;
+}
+.projects {
+    font-family: 'Comic Sans MS', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .thirdSection {
+    /* font-family: 'Comic Sans MS', sans-serif; */
+    
+    color: #ffffff;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .project-card {
+    background-color: rgba(0, 0, 0, 0.603);
+    color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px; /* Decreased padding to make the card smaller */
+    width: 200px; /* Adjust the width as per your preference */
+    animation: fadeIn 1s;
+    transition: transform 0.3s ease-in-out;
+  }
+  .project-image {
+    width: 100%; /* Set the width to 100% to ensure the image fits inside the card */
+    height: auto; /* Allow the height to adjust automatically to maintain the aspect ratio */
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+#namo,#kaul{
+  max-width: 80vw;
+  margin: auto;
+
+
+}
+p{
+  text-align: justify;
+}
+#aboutme{
+  text-align: justify;
+  /* font-size: x-large; */
+}
+
+  .leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    /* border-radius: 6px; */
+    font-size: 20px;
+    cursor: pointer;
+
+  }
+  
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Startup_name</div>
+        <div class="right">
+          <ul>
+            <li><a href="#firstSection">Home</a></li>
+            <li><a href="#aboutme">Your orders</a></li>
+            <li><a href="#projects">Products</a></li>
+            <li><a href="dummy.html">Cutomer Care</a></li>
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="firstSection">
+            <div class="leftSection">
+                Welcome to <span class="purple">Startup_name</span>
+                <div>Here you can buy</div>
+                
+                <span id="element"></span><br>
+                
+                
+                <button class="btn">
+                  <a href="https://drive.google.com/file/d/11nzsePNq0UIjf4jQgR9YRYLTeM1OeBQg/view?usp=sharing" target="_blank">Download Resume</a>
+                </button>
+                <button class="btn">
+                  <a href="https://www.instagram.com/mr_shlok_xxz/" target="_blank">Instagram Page</a>
+                </button>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt=""></img>
+            </div>
+        </section>
+        <hr>        <hr>
+        
+        <h1 id ='kaul'>Products Availeble</h1>
+        <section class="thirdSection" id="projects">
+          
+          
+          
+          <div class="project-card">
+            <img class="project-image"  src="gpt_api.png" alt="GPT-API Project" />
+            <h3>Product 1</h3>
+            <p>
+                <Product 1 discreption
+            </p>
+        </div>
+        <div class="project-card">
+            <img class="project-image"  src="ai_assistant.png" alt="AI Assistant" />
+            <h3>AI Assistant</h3>
+            <p>
+                I've developed an AI assistant using Google Speech APIs. This voice-activated assistant can perform various tasks, such as setting reminders, answering questions, and more.
+            </p>
+        </div>
+        <div class="project-card">
+            <img class="project-image" src="toy_robot.png" alt="Toy Robot" />
+            <h3>AI enabled Robot(Inprogress)</h3>
+            <p>
+                I'm currently working on building a Ai enabled robot which will have an AI assistant installed in it and we can intruct it through our voice. This project incorporates my knowledge of embedded programming and hardware interfacing.
+            </p>
+        </div>
+        
+        
+        <div class="project-card">
+            <img class="project-image" src="plant.png" alt="Automated Irrigation System">
+            <div class="project">
+                <h3>Automated Irrigation System</h3>
+                <!-- <p>The Automated Irrigation System is designed to streamline the irrigation process for farmers and ensure efficient water management in agriculture. By using an Arduino microcontroller and a capacitive moisture sensor, the system automatically measures the moisture content in the soil and controls the water pump to provide plants with the right amount of water. This project report offers a detailed explanation of the system's features and benefits.</p> -->
+                <p>Automated Irrigation System: Enhances farming irrigation using Arduino and moisture sensor, optimizing water management and plant hydration. Detailed project report outlines system features and benefits for agriculture.</p>
+                
+            </div>
+        </section>
+    </main>
+    
+    
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Item 1.', 'Item 2.','Item 3.','Item 4.','Item 5.','Everything.'],
+        typeSpeed: 50,
+      });
+    </script>
+    <footer>
+      <div class="copyright">
+        &copy; 2023 Are Shlok. All rights reserved.
+      </div>
+    </footer>
+    
+  </body>
+</html>
